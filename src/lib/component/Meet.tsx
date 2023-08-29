@@ -20,7 +20,7 @@ export default function Meet() {
     if (queryName) {
       setName(queryName);
     } else {
-      setName("हर्ष"); // Default name if no query parameter is provided
+      setName("Name"); // Default name if no query parameter is provided
     }
   }, [router.query.name]);
 
