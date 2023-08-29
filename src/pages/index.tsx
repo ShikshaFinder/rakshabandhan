@@ -1,5 +1,5 @@
 import Meet from "@/lib/component/Meet";
-// import Googlepay from "@/lib/component/googlepay";
+import Googlepay from "@/lib/component/googlepay";
 
 import { useState } from "react";
 export default function sf() {
@@ -7,7 +7,8 @@ export default function sf() {
   return (
     <>
       <Meet />
-      {/* <Googlepay/> */}
+      <Googlepay/>
     </>
   );
 }
+
