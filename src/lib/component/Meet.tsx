@@ -30,7 +30,7 @@ export default function Meet() {
 
   const generateLink = async () => {
     const encodedName = encodeURIComponent(name);
-    const link = `http://${location.hostname}:3000/?name=${encodedName}`;
+    const link = `http://${location.hostname}/?name=${encodedName}`;
 
     try {
       await navigator.clipboard.writeText(link);
