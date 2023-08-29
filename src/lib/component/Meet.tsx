@@ -30,7 +30,7 @@ export default function Meet() {
 
   const generateLink = async () => {
     const encodedName = encodeURIComponent(name);
-    const link ="राखी के इस पावन पर्व पर आप भी अपना नाम इस जगह दर्ज करवा क लिंक अपने परिवार और दोस्तों को भेजि"+`http://${location.hostname}/?name=${encodedName}`;
+    const link ="राखी के इस पावन पर्व पर आप भी अपना नाम इस जगह दर्ज करवा क लिंक अपने परिवार और दोस्तों को भेजि  . "+  `http://${location.hostname}/?name=${encodedName}`;
 
     try {
       await navigator.clipboard.writeText(link);
