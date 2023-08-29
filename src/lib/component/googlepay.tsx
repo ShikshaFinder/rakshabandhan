@@ -5,7 +5,7 @@ export default function Googlepay(){
     <>
       <div>
         <Text fontSize="15px" color="black">
-          if you have not used google pay yet,join with this code d234b8h,
+          If you have not used google pay yet,Join with this code d234b8h,
           <br />
           and get 21 rupees in your account. search for more query. " google pay
           refral prgram "
