@@ -20,7 +20,7 @@ export default function Meet() {
     if (queryName) {
       setName(queryName);
     } else {
-      setName(" Enter your Name"); // Default name if no query parameter is provided
+      setName(" Enter your Name "); // Default name if no query parameter is provided
     }
   }, [router.query.name]);
 
@@ -39,8 +39,13 @@ export default function Meet() {
       alert("Failed to copy link to clipboard: " + error.message);
     }
   };
-
+<script
+  async
+  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2754274313849445"
+  crossorigin="anonymous"
+></script>;
   return (
+    
     <Stack minH={"100vh"} direction={{ base: "column", md: "row" }}>
       <Flex p={8} flex={1} align={"center"} justify={"center"}>
         <Stack spacing={6} w={"full"} maxW={"lg"}>
