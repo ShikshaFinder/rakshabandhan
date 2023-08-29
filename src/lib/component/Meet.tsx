@@ -98,9 +98,9 @@ export default function Meet() {
           </Stack>
         </Flex>
         <Text fontSize="10px" color="black">
-          if you have not used google pay yet,join with this code d234b8h,
+          If you have not used google pay yet,join with this code d234b8h,
           <br />
-          and get 21 rupees in your account.if you have doubt than search for
+          and get 21 rupees in your account.If you have doubt than search for
           google pay referal program.
         </Text>
         <Flex flex={1}>
